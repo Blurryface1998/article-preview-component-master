@@ -1,0 +1,114 @@
+main {
+    .main {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 90%;
+        position: relative;
+        margin: 20px;
+        background: white;
+        
+
+        &__image {
+            
+            img {
+                object-fit: cover;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &__heading {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 10px;
+            color: var(--veryDarkGrayishBlue);
+            text-align: left;
+        }
+
+        &__paragraph {
+            font-size: 15px;
+            font-weight: 400;
+            padding: 10px;
+            text-align: left;
+            color: var(--DeasaturatedDarkBlue);
+        }
+
+        &__creator {
+            padding: 10px;
+            display: flex;
+            justify-content: left;
+            align-items: baseline;
+            
+
+            &--avatar {
+                    
+                img {
+                    vertical-align: middle;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 50%;
+                }
+            }
+
+            &--name {
+                text-align: left;
+                font-weight: 300;
+                color: var(--veryDarkGrayishBlue);
+                font-size: 13px;
+                padding: 10px;
+                font-weight: 600;
+                position: relative;
+
+                span {
+                    padding: 0;
+                    font-size: 12px;
+                    opacity: 0.8;
+                    font-weight: 400;
+                }
+            }
+
+            &--share {
+                position: absolute;
+                bottom: 25px;
+                right: 30px;
+                background: var(--lightGrayishBlue);
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                text-align: center;
+                padding: 3px;
+                cursor: pointer;
+                
+
+                img {
+                    vertical-align: middle;
+                    max-width: 100%;
+                    height: auto;
+                }
+
+                ul {
+                    background: var(--veryDarkGrayishBlue);
+                    border-bottom-left-radius: 25px;
+                    border-bottom-right-radius: 25px;
+
+                    li {
+                       // display: none;
+                        list-style-type: none;
+                       
+                        
+                    }
+                    a {
+                        text-decoration: none;
+
+                        img {
+                            max-width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
