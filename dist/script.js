@@ -1,2 +1,2 @@
-"use strict";var btn=document.querySelector("button"),popup=document.querySelector(".main__creator--popup");btn.addEventListener("click",(function(){popup.classList.toggle("show")}));
+"use strict";var btn=document.querySelector(".button"),popup=document.querySelector(".main__creator--popup"),creator=document.querySelector(".main__creator");btn.addEventListener("click",(function(){popup.classList.toggle("show"),btn.classList.toggle("top")}));
 //# sourceMappingURL=script.js.map

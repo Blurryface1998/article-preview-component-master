@@ -7,6 +7,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,7 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Screenshot.jpg)
+![](images/screenshot.jpg)
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-HuzVjil-A)
+- Live Site URL: (https://blurryface1998.github.io/article-preview-component-master/)
 
 ## My process
 
